@@ -6,4 +6,9 @@ for(let i=1; i<=N; i++){
     }
 }
 
-(count==2)? console.log("No is prime") : console.log("No is not prime");
+if(count==2){
+    console.log("No is prime") 
+} 
+else{
+    console.log("No is not prime");
+}
